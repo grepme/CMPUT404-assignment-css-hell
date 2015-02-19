@@ -41,7 +41,7 @@ http://freeseamlesstextures.com/gallery/38-vintage-paper-background.html
 
 Part 2
 ======
-Restrictions, use Python 2.7? Alright, it's programmed in Flask.
+Restrictions, use Python 2.7? Alright, it's programmed in Flask. To Run:
 
 ```
     python Part2.py
