@@ -64,7 +64,11 @@
         <section>
             <div class="row stretch">
                 <div class="large-4 columns">
-                    <img class="photo" src=""/>
+                    {% if css_file == "bad" %}
+                    <img class="photo" src="/static/img/kyle-stud.png"/>
+                    {% else %}
+                    <img class="photo" src="/static/img/kyle.png"/>
+                    {% endif %}
                 </div>
                 <div class="large-8 columns">
                     <h3>Who Are You?</h3>
