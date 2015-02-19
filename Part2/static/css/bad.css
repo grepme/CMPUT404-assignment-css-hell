@@ -1,0 +1,142 @@
+
+body{
+    font-family: "Comic Sans MS", serif;
+}
+
+.stretch{
+    max-width: 100%;
+}
+
+.photo{
+    content:url("../img/kyle-stud.png");
+}
+
+.center-present:before{
+    content: "Beta";
+    position: absolute;
+    right: 40%;
+    bottom: 65px;
+    background-color: yellow;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.center-present:after{
+    content:url("../img/rss.png");
+    position: absolute;
+    right: 20%;
+    top: 34px;
+    z-index: 500;
+}
+
+.center-present{
+    /* Generate via http://www.colorzilla.com/gradient-editor/ */
+    text-align: center;
+    background: #d4e02c; /* Old browsers */
+    background: -moz-linear-gradient(left, #d4e02c 0%, #e0a32a 35%, #ad1b25 55%, #7db9e8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#d4e02c), color-stop(35%,#e0a32a), color-stop(55%,#ad1b25), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #d4e02c 0%,#e0a32a 35%,#ad1b25 55%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #d4e02c 0%,#e0a32a 35%,#ad1b25 55%,#7db9e8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #d4e02c 0%,#e0a32a 35%,#ad1b25 55%,#7db9e8 100%); /* IE10+ */
+    background: linear-gradient(to right, #d4e02c 0%,#e0a32a 35%,#ad1b25 55%,#7db9e8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e02c', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+.header-buff{
+    margin-top: 50px;
+}
+
+.slogan{
+    display: none;
+}
+
+.panel-other{
+    background-color: yellow;
+}
+
+.the{
+    display: none;
+}
+
+.points{
+    text-align: center;
+}
+
+.highlights{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.highlights li:nth-child(even){
+    text-align: center;
+    color: green;
+    margin-bottom: 15px;
+}
+
+.highlights li:nth-child(odd){
+    display: none;
+}
+
+
+.navigation-links{
+    text-align: center;
+}
+
+.navigation-links ul li{
+    margin: 10px 20px 10px 0;
+}
+
+.navigation-links ul li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.active-link{
+    color: #177dbb;
+}
+
+.link{
+    color: white;
+}
+
+#line-separator {
+    margin-bottom: 45px;
+}
+section{
+    background-color: pink;
+}
+
+
+section{
+    margin-bottom: 50px;
+}
+
+.navigation-bar{
+    background-color: blue;
+}
+
+.navigation-bar ul li{
+    padding: 20px;
+    margin: 0;
+    /* Generate via http://www.colorzilla.com/gradient-editor/ */
+    background: #d4e02c; /* Old browsers */
+    background: -moz-linear-gradient(top, #d4e02c 0%, #ef8581 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d4e02c), color-stop(100%,#ef8581)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #d4e02c 0%,#ef8581 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #d4e02c 0%,#ef8581 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #d4e02c 0%,#ef8581 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #d4e02c 0%,#ef8581 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e02c', endColorstr='#ef8581',GradientType=0 ); /* IE6-9 */
+}
+
+.wood-border{
+    display: none;
+}
+
+.header{
+    background: blue; /* Old browsers */
+}
+
+footer{
+    min-height: 50px;
+}

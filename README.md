@@ -39,6 +39,49 @@ from HTML 5. I've accounted for this and added styling for it. Look for it in 76
 Vintage paper background was acquired from here:
 http://freeseamlesstextures.com/gallery/38-vintage-paper-background.html
 
+Part 2
+======
+Restrictions, use Python 2.7? Alright, it's programmed in Flask.
+
+```
+    python Part2.py
+```
+
+Then you will either want:
+
+```
+    http://localhost:5000/good
+    http://localhost:5000/bad
+```
+
+Also, I used HTML5 Boilerplate just to get started:
+https://html5boilerplate.com/
+
+And, finally, I needed something responsive to deal with different screen sizes, so Foundation CSS was used:
+http://foundation.zurb.com/
+
+bad.css and good.css clearly outline the portions I have done and the HTML body is written by me.
+
+To create the box shadow, I used:
+http://www.cssmatic.com/box-shadow
+
+To create the gradient that is similar to The Oatmeal, I used:
+http://www.colorzilla.com/gradient-editor/
+
+Image credits:
+
+Wood floor:
+http://gnrbishop.deviantart.com/art/Wood-floor-86913934
+
+Python Image:
+http://ubotstudio.com/blog/wp-content/uploads/2014/12/python1.png
+
+Notepad image under CC:
+http://commons.wikimedia.org/wiki/File:Notepad_icon.svg
+
+RSS Feed under CC:
+http://commons.wikimedia.org/wiki/File:Rss112.png
+
 
 License/Copyright
 =================

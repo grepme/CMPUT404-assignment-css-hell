@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/css/foundation.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700italic' rel='stylesheet' type='text/css'>
+    {% if css_file == "bad" %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bad.css') }}">
+    {% else %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/good.css') }}">
+    {% endif %}
+    <script src="{{ url_for('static', filename='js/vendor/modernizr-2.6.2.min.js') }}"></script>
+</head>
+<body>
+<!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+<!-- Top Border -->
+<div class="row stretch">
+    <div style="min-height: 50px;" class="large-12 columns wood-border">
+
+    </div>
+</div>
+
+<div class="row stretch header">
+    <div class="large-12 columns header-buff">
+        <h1 class="center-present">Kyle Richelhoff</h1>
+
+        <p class="slogan">This is me, I'm awesome.</p>
+    </div>
+</div>
+
+<div class="row stretch">
+    <div class="large-12 columns navigation-bar">
+        <div class="nav-bar navigation-links">
+            <ul class="button-group">
+                <li><a href="#" class="active-link">Home</a></li>
+                <li><a href="#" class="link">Projects</a></li>
+                <li><a href="#" class="link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- fun stuff! -->
+<div class="row stretch">
+    <div id="line-separator" class="large-12 columns">
+
+    </div>
+</div>
+<div class="row stretch">
+
+    <div class="large-9 columns" role="content">
+        <section>
+            <div class="row stretch">
+                <div class="large-4 columns">
+                    <img class="photo" src=""/>
+                </div>
+                <div class="large-8 columns">
+                    <h3>Who Are You?</h3>
+
+                    <p>
+                        My name is Kyle Richelhoff, I'm an ambitious developer who likes to experiment with code.
+                        I've founded several startup companies and I'm not about to slow down! You can find me taking
+                        up space at Startup Edmonton working towards his next company. I'm always looking to engage
+                        with founder who want to solve problems.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row stretch">
+                <div class="large-8 columns">
+                    <h3>A Little History</h3>
+
+                    <p>
+                        I've worked for several startup companies. LoginRadius to name one and have produced code that
+                        now runs on many popular sites like Red Bull and through Viafoura that includes CBC, Discovery
+                        Channel, CNN, etc.
+                    </p>
+                </div>
+                <div class="large-4 columns">
+                    <img src="{{ url_for('static', filename='img/python.png') }}"/>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row stretch">
+                <div class="large-4 columns">
+                    <img src="{{ url_for('static', filename='img/notepad.png') }}"/>
+                </div>
+                <div class="large-8 columns">
+                    <h3>What I Have to Offer</h3>
+
+                    <p>
+                        I can provide consultation on wide range of topics. From entrepreneurship to programming
+                        practices! Send me an email and we'll discuss mentorship in detail.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <aside class="large-3 columns">
+        <div class="panel panel-other">
+            <h3 class="points the">The</h3>
+
+            <h2 class="points">Points</h2>
+            <ul class="highlights">
+                <li>
+                    Monetary
+                </li>
+                <li>
+                    Has raised more than $500,000 in funding
+                </li>
+                <li>
+                    Agile
+                </li>
+                <li>
+                    Has attributed to some of the fastest growing companies in Edmonton.
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+</div>
+
+<footer class="row stretch wood-border">
+    <div class="large-12 columns">
+        <div class="nav-bar navigation-links">
+            <ul class="button-group">
+                <li><a href="#" class="link">Home</a></li>
+                <li><a href="#" class="link">Projects</a></li>
+                <li><a href="#" class="link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{ url_for('static', filename='js/vendor/jquery-1.10.2.min.js') }}"><\/script>')</script>
+<script src="{{ url_for('static', filename='js/plugins.js') }}"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

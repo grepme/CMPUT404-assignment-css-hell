@@ -1,0 +1,131 @@
+.stretch{
+    max-width: 100%;
+}
+
+.center-present{
+    text-align: center;
+    color: white;
+    font-family: 'Droid Serif', serif;
+    margin-bottom: 0;
+    text-shadow: 0 0 75px #eeedd6;
+}
+
+.header-buff{
+    margin-top: 50px;
+}
+
+.slogan{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Droid Serif', serif;
+    margin-top: -5px;
+}
+
+
+.navigation-links{
+    text-align: center;
+}
+
+.navigation-links ul li{
+    margin: 10px 20px 10px 0;
+}
+
+.navigation-links ul li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.active-link{
+    color: #177dbb;
+}
+
+.link{
+    color: white;
+}
+
+#line-separator{
+    background-color: #177dbb;
+    min-height: 4px;
+    margin-bottom: 45px;
+}
+
+#line-separator::before{
+    position: absolute;
+    content: "\25B2";
+    top: -17px;
+    right: 90px;
+    text-align: center;
+    width: 100%;
+    color:  #177dbb;
+}
+
+.photo{
+    border:1px solid;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    content:url("../img/kyle.png");
+}
+
+.points{
+    text-align: center;
+}
+
+.highlights{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.highlights li:nth-child(even){
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.highlights li:nth-child(odd){
+    text-align: center;
+    font-size: 22px;
+    color: #016394;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+.navigation-bar{
+
+    /* Generate via http://www.colorzilla.com/gradient-editor/ */
+    background: #353432; /* Old browsers */
+    background: -moz-linear-gradient(top, #353432 0%, #5f5f5f 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#353432), color-stop(100%,#5f5f5f)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #353432 0%,#5f5f5f 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #353432 0%,#5f5f5f 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #353432 0%,#5f5f5f 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #353432 0%,#5f5f5f 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#353432', endColorstr='#5f5f5f',GradientType=0 ); /* IE6-9 */
+}
+
+.wood-border{
+    background: url('../img/wood-floor.jpg') repeat;
+
+    /* Generated via http://www.cssmatic.com/box-shadow */
+    -webkit-box-shadow: 0 17px 22px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 17px 22px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 17px 22px 0 rgba(0,0,0,0.5);
+}
+
+.header{
+    /* Generate via http://www.colorzilla.com/gradient-editor/ */
+    background: #016394; /* Old browsers */
+    background: -moz-linear-gradient(top, #016394 0%, #177dbb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#016394), color-stop(100%,#177dbb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #016394 0%,#177dbb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #016394 0%,#177dbb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #016394 0%,#177dbb 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #016394 0%,#177dbb 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#016394', endColorstr='#177dbb',GradientType=0 ); /* IE6-9 */
+}
+
+footer{
+    min-height: 50px;
+}
