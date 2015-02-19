@@ -1,0 +1,42 @@
+/* Body and background */
+body{
+    /* Because fonts. */
+    font-family: serif;
+    background: black url("../images/vintage-paper-background.jpg") repeat;
+    color: #726F92
+}
+
+/* Header Tags */
+h1{
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Paragraph Tags */
+p{
+    /* Text indents and margins so text is nicely spaced */
+    text-indent: 35px;
+    margin: 25px;
+}
+
+pre{
+    font-family: serif;
+}
+
+/* Image tags */
+img{
+    border: 10px solid;
+}
+
+/* Image caption */
+figcaption{
+    text-align: center;
+    font-weight: 100;
+    font-size: 10px;
+    font-style: italic;
+}
