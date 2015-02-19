@@ -22,7 +22,7 @@ certain styles were overwritten to meet the criteria.
 The only thing added to the HTML document was:
 <link type="text/css" rel="stylesheet" href="css/styles.css" />
 
-AND, the figcaption for 76-html:
+AND, the figcaption for 76-h.html:
 <figcaption>Something Something Caption</figcaption>
 
 After the default style tag.
@@ -33,7 +33,7 @@ http://paletton.com/#uid=30M0u0k8Jqe2eHr5buXcEm8f+hJ
 Using a triad colour scheme so that the text colour stands out from the background more.
 
 "Image caption". There really was no image captions in my story. However, if there was, we could use figcaption 
-from HTML 5. I've accounted for this and added styling for it. Look for it in 76-html:
+from HTML 5. I've accounted for this and added styling for it. Look for it in 76-h.html:
 <figcaption>Something Something Caption</figcaption>
 
 Vintage paper background was acquired from here:
