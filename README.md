@@ -85,8 +85,8 @@ http://commons.wikimedia.org/wiki/File:Rss112.png
 
 Minor Note
 ==========
-The CSS is there for content tag but it doesn't work in firefox, so I had to change it in Flask. Otherwise, it would
-work purely on CSS.
+The CSS is there for content tag but it doesn't work in firefox for the picture,
+ so I had to change it in Flask. Otherwise, it would work purely on CSS.
 
 License/Copyright
 =================
